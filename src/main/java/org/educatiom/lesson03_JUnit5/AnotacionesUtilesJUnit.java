@@ -66,7 +66,7 @@ public class AnotacionesUtilesJUnit {
 
         //@MethodSource
         Pero, ¿cómo pasar objetos como parámetros? Especialmente si tienen un algoritmo de construcción complejo. Para
-        hacer esto, simplemente puede especificar un método auxiliar especial que devolverá una lista (Stream) de tales
+        hacer esto, simplemente puede especificar un method auxiliar especial que devolverá una lista (Stream) de tales
         valores.
 
         @ParameterizedTest
@@ -177,7 +177,7 @@ public class AnotacionesUtilesJUnit {
             }
 
         //@DisplayNameGeneration
-        Puede crear un método especial que generará los nombres de las pruebas y los métodos de prueba
+        Puede crear un method especial que generará los nombres de las pruebas y los métodos de prueba
 
         @DisplayNameGeneration(DisplayNameGeneratorUnitTest.ReplaceCamelCase.class)
         class DisplayNameGeneratorUnitTest {
