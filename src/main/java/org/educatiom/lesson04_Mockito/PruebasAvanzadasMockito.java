@@ -80,14 +80,14 @@ public class PruebasAvanzadasMockito {
         */
 
         //Parámetros del method
-        /*Si desea que el método devuelva algo específico con un determinado parámetro, la regla se puede escribir así:
+        /*Si desea que el method devuelva algo específico con un determinado parámetro, la regla se puede escribir así:
          Mockito.doReturn(result).when(an object).method name(parameter);
-         Qué pasa si el método requiere argumentos, pero para cualquier valor debe devolver el mismo resultado?:"
+         Qué pasa si el method requiere argumentos, pero para cualquier valor debe devolver el mismo resultado?:"
          Mockito.any()
 
          //Parametros del tipo any:
 
-         Método	                         Tipo de parámetro
+         method	                         Tipo de parámetro
         any()	                    Objeto incluyendo nulo
         any(NombreClase.clase)	    nombre de la clase
         anyInt()	                En t
@@ -97,7 +97,7 @@ public class PruebasAvanzadasMockito {
 
         //doAnswer()
          Llegamos al complejo comportamiento de los métodos virtuales. Tarde o temprano habrá una situación en la que
-         desee que este método virtual tenga un comportamiento complejo. Por ejemplo, debería devolver valores
+         desee que este method virtual tenga un comportamiento complejo. Por ejemplo, debería devolver valores
          dependiendo de los parámetros, convertir la cadena a mayúsculas.
 
          Mockito.doAnswer(function).when(an object).method name(parameter);
@@ -111,18 +111,18 @@ public class PruebasAvanzadasMockito {
          Mockito.verify(an object).method name(parameter);
 
          A veces hay escenarios de verificación más complejos. Por ejemplo, debe verificar no solo el hecho de que se
-         llamó al método, sino, por ejemplo, que se llamó 3 veces. O lo llamó usted en un ciclo y, por lo tanto, debería
+         llamó al method, sino, por ejemplo, que se llamó 3 veces. O lo llamó usted en un ciclo y, por lo tanto, debería
          haberlo llamado N veces.
 
          Existen métodos especiales con los que puede configurar varios escenarios:
 
-            Método	               Descripción
-            never()	            El método nunca debe ser llamado
+            method	               Descripción
+            never()	            El method nunca debe ser llamado
             times()	            n veces
             atLeast(n)	        n o más veces
             atLeastOnce()	        1 o más veces
             atMost(n)	        n o menos veces
-            only()	            Debe haber una sola llamada y solo a este método.
+            only()	            Debe haber una sola llamada y solo a este method.
 
             //Orde de llamada de los methods
             hay situaciones en las que el orden de las llamadas a métodos es importante, y Mockito también tiene una
