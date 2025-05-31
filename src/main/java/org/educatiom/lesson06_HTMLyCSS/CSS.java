@@ -6,7 +6,7 @@ public class CSS {
     public static void main(String[] args) {
 
         System.out.println("--------------------- CSS ---------------------------");
-        //l atributo de estilo de una etiqueta
+        //El atributo de estilo de una etiqueta
         /*A medida que la web comenzó a ganar popularidad, hubo una creciente demanda de páginas web con un diseño
         hermoso o muy hermoso. Este problema se resolvió utilizando el style .
 
