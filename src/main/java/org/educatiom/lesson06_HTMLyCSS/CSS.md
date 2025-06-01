@@ -3,6 +3,7 @@
 
 CSS (Cascading Style Sheets) se encarga de cómo se ve tu contenido. Separa la estructura del diseño.
 
+---
 ## 1. Conceptos Fundamentales de CSS 💡
 
 | Concepto/Propiedad | Descripción y Uso Principal                                                              | Ejemplo de Aplicación                                   |
