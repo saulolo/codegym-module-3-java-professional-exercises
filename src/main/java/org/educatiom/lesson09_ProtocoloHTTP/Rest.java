@@ -26,7 +26,7 @@ public class Rest {
 
         Si desea obtener datos sobre el usuario 113, ejecute la consulta:
         http://server.com/users/113
-        Y así sucesivamente, todo en la misma línea.
+        Y así sucesivamente, tod en la misma línea.
 
         Una vez más, el servidor se ve como un depósito de datos que es visible desde el exterior en forma de árbol.
 
@@ -81,8 +81,8 @@ public class Rest {
 
         //https
         Comencemos con la primera modificación del protocolo http: el protocolo https . Este es el mismo http, pero se
-        le ha agregado el cifrado de contenido. Después de todo, las solicitudes y respuestas Http son archivos de texto
-        ordinarios. Probablemente no desee que todo lo que su navegador envíe y reciba pase por Internet sin problemas.
+        le ha agregado el cifrado de contenido. Después de tod, las solicitudes y respuestas Http son archivos de texto
+        ordinarios. Probablemente no desee que tod lo que su navegador envíe y reciba pase por Internet sin problemas.
 
         Para solucionar este problema se inventó el protocolo https ( http+security ) . Cuando intenta realizar una
         solicitud utilizando el protocolo https, su navegador primero establece una conexión con el servidor requerido y
@@ -98,7 +98,7 @@ public class Rest {
 
         //http/2
         Pero no hay nada en este mundo que no se pueda mejorar. Después de que Google ganó la guerra de los navegadores ,
-        decidió apoderarse de todo Internet. Y, por supuesto, por una causa noble. Decidieron mejorar el protocolo http.
+        decidió apoderarse de tod Internet. Y, por supuesto, por una causa noble. Decidieron mejorar el protocolo http.
         - Cifrado obligatorio.
         - Compresión de datos en cabeceras HTTP.
         - El servidor puede enviar archivos incluso antes de que sean solicitados (tecnología push).

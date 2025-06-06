@@ -83,9 +83,9 @@ Indican el resultado de la solicitud del cliente.
 
 ---
 ### 6. ENCABEZADOS HTTP: METADATOS DE LA COMUNICACIÓN 🏷️
-   Los encabezados HTTP son pares de nombre-valor que proporcionan metadatos
-   esenciales sobre la solicitud o la respuesta. Se colocan después de la
-   línea de inicio y antes del cuerpo del mensaje, separados por una línea en blanco.
+Los encabezados HTTP son pares de nombre-valor que proporcionan metadatos
+esenciales sobre la solicitud o la respuesta. Se colocan después de la
+línea de inicio y antes del cuerpo del mensaje, separados por una línea en blanco.
 
 -   **Función Principal:** Permiten al cliente y al servidor pasar información
     adicional sobre la solicitud, la respuesta, o sobre el cuerpo del mensaje.
