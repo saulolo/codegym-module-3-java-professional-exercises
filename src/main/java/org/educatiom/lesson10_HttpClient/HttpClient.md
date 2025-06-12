@@ -242,11 +242,9 @@ El documento menciona `jQuery`. Es importante entender la diferencia de contexto
 
 | Campo           | Detalles                                             |
 | :-------------- |:-----------------------------------------------------|
-| **Título** | Guía Rápida de HttpClient en Java (JDK 11+           |
+| **Título** | Guía Rápida de HttpClient en Java (JDK 11+)          |
 | **Autor(es)** | Saul Echeverri                                       |
 | **Versión** | 1.0.0                                                |
 | **Fecha de Creación** | 05 de Junio de 2025                                  |
-| **Última Actualización** | 05 de Junio de 2025                                   |
+| **Última Actualización** | 05 de Junio de 2025                                  |
 | **Notas Adicionales**  | Documento base para referencia rápida de HttpClient. |
-
----
